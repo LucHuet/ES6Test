@@ -1,0 +1,71 @@
+.main-content {
+    margin-top: 80px;
+}
+footer.footer {
+    margin-top: 100px;
+}
+
+.mini-mug-hot {
+    width: 13px;
+    height: auto;
+}
+
+/*LOGIN*/
+
+.btn-login {
+    background-color: #59B2E0;
+    outline: none;
+    color: #fff;
+    font-size: 14px;
+    height: auto;
+    font-weight: normal;
+    padding: 14px 0;
+    text-transform: uppercase;
+    border-color: #59B2E6;
+}
+.btn-login:hover,
+.btn-login:focus {
+    color: #fff;
+    background-color: #53A3CD;
+    border-color: #53A3CD;
+}
+
+/*INDEX*/
+
+.mug-hot {
+    height: 50px;
+    width: auto;
+    padding-right: 10px;
+}
+
+.records {
+    background-color: #D4936A;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.records-table {
+    border: 2px solid #000;
+}
+
+.records-table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: #f9f9f9;
+}
+
+.records-table-striped>tbody>tr:nth-of-type(even) {
+    background-color: #FFCBAA;
+}
+
+.records-table > thead > tr > th {
+    border-bottom: 2px solid #000;
+    background-color: #AA6439;
+    color: #fff;
+}
+
+.records-table > tbody > tr > td {
+    border-top: 1px solid #000;
+}
+
+.records-table-hover>tbody>tr:hover {
+    background-color: #D4936A;
+}

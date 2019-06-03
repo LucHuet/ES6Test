@@ -1,0 +1,18 @@
+<table class="table records-table-striped records-table-hover records-table">
+    <thead>
+    <tr>
+        <th class="text-center">Username</th>
+        <th class="text-center">Liters drinked</th>
+        <th class="text-center">Price</th>
+    </tr>
+    </thead>
+    <tbody>
+    {% for leader in leaderboard %}
+        <tr>
+            <td class="text-center">{{ leader.username }}</td>
+            <td class="text-center">{{ leader.drink }} liters</td>
+            <td class="text-center">{{ leader.in_chocolate }} in chocolate</td>
+        </tr>
+    {% endfor %}
+    </tbody>
+</table>

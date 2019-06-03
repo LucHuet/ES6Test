@@ -1,0 +1,5 @@
+drinkable_thing:
+    coffee: Coffee
+    chocolate: Chocolate
+    tea: Tea
+    water: Water
